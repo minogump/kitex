@@ -23,15 +23,15 @@ package server
 import (
 	"fmt"
 
-	internal_server "github.com/cloudwego/kitex/internal/server"
-	"github.com/cloudwego/kitex/pkg/acl"
-	"github.com/cloudwego/kitex/pkg/diagnosis"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/pkg/limiter"
-	"github.com/cloudwego/kitex/pkg/proxy"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	internal_server "github.com/minogump/kitex/internal/server"
+	"github.com/minogump/kitex/pkg/acl"
+	"github.com/minogump/kitex/pkg/diagnosis"
+	"github.com/minogump/kitex/pkg/generic"
+	"github.com/minogump/kitex/pkg/limiter"
+	"github.com/minogump/kitex/pkg/proxy"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/utils"
 )
 
 // WithServerBasicInfo provides initial information for client endpoint in RPCInfo.

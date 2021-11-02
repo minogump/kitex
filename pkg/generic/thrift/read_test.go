@@ -24,8 +24,8 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
+	"github.com/minogump/kitex/internal/mocks"
+	"github.com/minogump/kitex/pkg/generic/descriptor"
 )
 
 var stringInput = "hello world"

@@ -31,9 +31,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/codes"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/metadata"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/minogump/kitex/pkg/remote/trans/nphttp2/codes"
+	"github.com/minogump/kitex/pkg/remote/trans/nphttp2/metadata"
+	"github.com/minogump/kitex/pkg/remote/trans/nphttp2/status"
 
 	"github.com/cloudwego/netpoll"
 

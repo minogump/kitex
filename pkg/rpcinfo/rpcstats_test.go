@@ -20,9 +20,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/stats"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/stats"
 )
 
 func TestRPCStats(t *testing.T) {

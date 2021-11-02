@@ -21,8 +21,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/stats"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/minogump/kitex/pkg/stats"
+	"github.com/minogump/kitex/transport"
 )
 
 // EndpointInfo contains info for endpoint.

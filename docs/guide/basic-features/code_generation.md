@@ -5,13 +5,13 @@
 ## Installation
 
 ```
-go install github.com/cloudwego/kitex/tool/cmd/kitex
+go install github.com/minogump/kitex/tool/cmd/kitex
 ```
 
 You can use the go command to install kitex or build and install it from source. To check where kitex will be installed, try
 
 ```
-go list -f {{.Target}} github.com/cloudwego/kitex/tool/cmd/kitex
+go list -f {{.Target}} github.com/minogump/kitex/tool/cmd/kitex
 ```
 
 **Notice**: kitex will creates symbol links to itself, so please ensure kitex has a write permission to the directory where it is placed.

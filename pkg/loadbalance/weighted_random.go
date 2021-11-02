@@ -23,8 +23,8 @@ import (
 	"github.com/bytedance/gopkg/lang/fastrand"
 	"golang.org/x/sync/singleflight"
 
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/klog"
+	"github.com/minogump/kitex/pkg/discovery"
+	"github.com/minogump/kitex/pkg/klog"
 )
 
 var weightedPickerPool, randomPickerPool sync.Pool

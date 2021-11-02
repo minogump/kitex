@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec/perrors"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/minogump/kitex/pkg/klog"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote/codec/perrors"
+	"github.com/minogump/kitex/pkg/serviceinfo"
 )
 
 /**

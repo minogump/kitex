@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/diagnosis"
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/minogump/kitex/internal/mocks"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/diagnosis"
+	"github.com/minogump/kitex/pkg/endpoint"
+	"github.com/minogump/kitex/pkg/utils"
 )
 
 func TestOptionDebugInfo(t *testing.T) {

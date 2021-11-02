@@ -20,9 +20,9 @@ import (
 	"context"
 	"runtime/debug"
 
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/stats"
+	"github.com/minogump/kitex/pkg/klog"
+	"github.com/minogump/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/stats"
 )
 
 // Controller controls tracers.

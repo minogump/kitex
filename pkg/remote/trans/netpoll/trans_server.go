@@ -25,8 +25,8 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/utils"
 )
 
 // NewTransServerFactory creates a default netpoll transport server factory.

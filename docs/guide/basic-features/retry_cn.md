@@ -42,7 +42,7 @@
 ##### 3.1.1 超时重试配置
 - 配置示例：
 ```go
-// import "github.com/cloudwego/kitex/pkg/retry"
+// import "github.com/minogump/kitex/pkg/retry"
 fp := retry.NewFailurePolicy()
 fp.WithMaxRetryTimes(3) // 配置最多重试3次
 xxxCli := xxxservice.NewClient("destServiceName", client.WithFailureRetry(fp))

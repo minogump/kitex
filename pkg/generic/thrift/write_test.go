@@ -23,9 +23,9 @@ import (
 	"testing"
 
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
+	"github.com/minogump/kitex/internal/mocks"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/generic/descriptor"
 	"github.com/tidwall/gjson"
 )
 

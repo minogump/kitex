@@ -8,7 +8,7 @@
 ```go
 import (
     "github.com/kitex-contrib/resolver-dns"
-    kClient "github.com/cloudwego/kitex/client"
+    kClient "github.com/minogump/kitex/client"
 )
 
 ...

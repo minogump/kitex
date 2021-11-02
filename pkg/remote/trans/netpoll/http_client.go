@@ -17,7 +17,7 @@
 package netpoll
 
 import (
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote"
 )
 
 type httpCliTransHandlerFactory struct{}

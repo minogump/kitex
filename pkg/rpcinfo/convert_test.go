@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/stats"
-	"github.com/cloudwego/kitex/pkg/utils"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/kerrors"
+	"github.com/minogump/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/stats"
+	"github.com/minogump/kitex/pkg/utils"
+	"github.com/minogump/kitex/transport"
 )
 
 func TestAsTaggable(t *testing.T) {

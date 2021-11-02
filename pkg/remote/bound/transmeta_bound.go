@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/consts"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/consts"
+	"github.com/minogump/kitex/pkg/remote"
 )
 
 // NewTransMetaHandler to build transMetaHandler that handle transport info

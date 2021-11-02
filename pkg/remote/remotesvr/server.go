@@ -22,8 +22,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/endpoint"
+	"github.com/minogump/kitex/pkg/remote"
 )
 
 // Server is the interface for remote server.

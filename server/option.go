@@ -22,17 +22,17 @@ import (
 	"net"
 	"time"
 
-	internal_server "github.com/cloudwego/kitex/internal/server"
-	internal_stats "github.com/cloudwego/kitex/internal/stats"
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/limit"
-	"github.com/cloudwego/kitex/pkg/registry"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/trans/netpollmux"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/stats"
-	"github.com/cloudwego/kitex/pkg/utils"
+	internal_server "github.com/minogump/kitex/internal/server"
+	internal_stats "github.com/minogump/kitex/internal/stats"
+	"github.com/minogump/kitex/pkg/endpoint"
+	"github.com/minogump/kitex/pkg/klog"
+	"github.com/minogump/kitex/pkg/limit"
+	"github.com/minogump/kitex/pkg/registry"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote/trans/netpollmux"
+	"github.com/minogump/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/stats"
+	"github.com/minogump/kitex/pkg/utils"
 )
 
 // Option is the only way to config server.

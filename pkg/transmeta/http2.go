@@ -4,11 +4,11 @@ package transmeta
 import (
 	"context"
 
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/metadata"
-	"github.com/cloudwego/kitex/pkg/remote/transmeta"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote/trans/nphttp2/metadata"
+	"github.com/minogump/kitex/pkg/remote/transmeta"
+	"github.com/minogump/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/transport"
 
 	"github.com/bytedance/gopkg/cloud/metainfo"
 )

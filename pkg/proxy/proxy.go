@@ -20,9 +20,9 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/loadbalance"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/discovery"
+	"github.com/minogump/kitex/pkg/loadbalance"
+	"github.com/minogump/kitex/pkg/remote"
 )
 
 // Config contains basic components used in service discovery process.

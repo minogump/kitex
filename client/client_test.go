@@ -23,16 +23,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/client/callopt"
-	"github.com/cloudwego/kitex/internal/client"
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/rpcinfo/remoteinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/minogump/kitex/client/callopt"
+	"github.com/minogump/kitex/internal/client"
+	"github.com/minogump/kitex/internal/mocks"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/endpoint"
+	"github.com/minogump/kitex/pkg/kerrors"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/rpcinfo/remoteinfo"
+	"github.com/minogump/kitex/pkg/utils"
 )
 
 var (

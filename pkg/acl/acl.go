@@ -21,8 +21,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/kerrors"
+	"github.com/minogump/kitex/pkg/endpoint"
+	"github.com/minogump/kitex/pkg/kerrors"
 )
 
 // RejectFunc judges if to reject a request by the given context and request.

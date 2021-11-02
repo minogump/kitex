@@ -21,8 +21,8 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/rpcinfo"
 )
 
 var (

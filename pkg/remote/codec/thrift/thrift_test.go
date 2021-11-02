@@ -22,13 +22,13 @@ import (
 	"testing"
 
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/cloudwego/kitex/internal/mocks"
-	mt "github.com/cloudwego/kitex/internal/mocks/thrift"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/minogump/kitex/internal/mocks"
+	mt "github.com/minogump/kitex/internal/mocks/thrift"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/serviceinfo"
+	"github.com/minogump/kitex/transport"
 )
 
 var (

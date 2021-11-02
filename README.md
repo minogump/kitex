@@ -67,7 +67,7 @@ Kitex has built-in code generation tools that support generating **Thrift**, **P
 
 ## Performance
 
-We compared the performance of Kitex with some popular RPC frameworks ([benchmark](https://github.com/cloudwego/kitex-benchmark)), such as [gRPC](https://github.com/grpc/grpc) and [RPCX](https://github.com/smallnest/rpcx), both using Protobuf. The test results show that [Kitex](https://github.com/cloudwego/kitex) performs better.
+We compared the performance of Kitex with some popular RPC frameworks ([benchmark](https://github.com/minogump/kitex-benchmark)), such as [gRPC](https://github.com/grpc/grpc) and [RPCX](https://github.com/smallnest/rpcx), both using Protobuf. The test results show that [Kitex](https://github.com/minogump/kitex) performs better.
 
 *Note: The performance benchmarks obtained from the experiment are for reference only, because there are many factors that can affect the actual performance in application scenarios.*
 
@@ -98,7 +98,7 @@ QPS|TP99|TP999
 
 - [Netpoll](https://github.com/cloudwego/netpoll): A high-performance network library.
 - [kitex-contrib](https://github.com/kitex-contrib): A partial extension library of Kitex, which users can integrate into Kitex through options according to their needs.
-- [Example](https://github.com/cloudwego/kitex-examples): Use examples of Kitex.
+- [Example](https://github.com/minogump/kitex-examples): Use examples of Kitex.
 
 ## Blogs
 
@@ -107,15 +107,15 @@ QPS|TP99|TP999
 
 ## Contributing
 
-[Contributing](https://github.com/cloudwego/kitex/blob/develop/CONTRIBUTING.md).
+[Contributing](https://github.com/minogump/kitex/blob/develop/CONTRIBUTING.md).
 
 ## License
 
-Kitex is distributed under the [Apache License, version 2.0](https://github.com/cloudwego/kitex/blob/develop/LICENSE). The licenses of third party dependencies of Kitex are explained [here](https://github.com/cloudwego/kitex/blob/develop/licenses).
+Kitex is distributed under the [Apache License, version 2.0](https://github.com/minogump/kitex/blob/develop/LICENSE). The licenses of third party dependencies of Kitex are explained [here](https://github.com/minogump/kitex/blob/develop/licenses).
 
 ## Community
 - Email: [conduct@cloudwego.io](conduct@cloudwego.io)
-- Issues: [Issues](https://github.com/cloudwego/kitex/issues)
+- Issues: [Issues](https://github.com/minogump/kitex/issues)
 - Lark: Scan the QR code below with [Lark](https://www.larksuite.com/zh_cn/download) to join our CloudWeGo/kitex user group.
 
   ![LarkGroup](docs/images/lark_group.png)

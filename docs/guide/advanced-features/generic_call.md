@@ -21,8 +21,8 @@ Application scenario: mid-platform services can forward the received original Th
 
   ```go
   import (
-     "github.com/cloudwego/kitex/client/genericclient"
-     "github.com/cloudwego/kitex/pkg/generic"
+     "github.com/minogump/kitex/client/genericclient"
+     "github.com/minogump/kitex/pkg/generic"
   )
   func NewGenericClient(destServiceName string) genericclient.Client {
       genericCli := genericclient.NewClient(destServiceName, generic.BinaryThriftGeneric())
@@ -32,9 +32,9 @@ Application scenario: mid-platform services can forward the received original Th
 
 - Generic Call
 
-  If you encode by yourself, you have to use Thrift serialization protocol [thrift/thrift-binary-protocol.md](https://github.com/apache/thrift/blob/master/doc/specs/thrift-binary-protocol.md#message). Note that you shouldn't encode original function parameter, but the **XXXArgs** which wraps function parameters. You can refer to github.com/cloudwego/kitex/generic/generic_test.go.
+  If you encode by yourself, you have to use Thrift serialization protocol [thrift/thrift-binary-protocol.md](https://github.com/apache/thrift/blob/master/doc/specs/thrift-binary-protocol.md#message). Note that you shouldn't encode original function parameter, but the **XXXArgs** which wraps function parameters. You can refer to github.com/minogump/kitex/generic/generic_test.go.
   
-  Kitex provides a thrift codec package `github.com/cloudwego/kitex/pkg/utils.NewThriftMessageCodec`.
+  Kitex provides a thrift codec package `github.com/minogump/kitex/pkg/utils.NewThriftMessageCodec`.
   
   ```go
   rc := utils.NewThriftMessageCodec()
@@ -53,8 +53,8 @@ The server just supports request with a length header like Framed and TTheader, 
 package main
 
 import (
-    "github.com/cloudwego/kitex/pkg/generic"
-    "github.com/cloudwego/kitex/server/genericserver"
+    "github.com/minogump/kitex/pkg/generic"
+    "github.com/minogump/kitex/server/genericserver"
 )
 
 func main() {
@@ -146,8 +146,8 @@ Type: *generic.HTTPResponse
 package main
 
 import (
-    "github.com/cloudwego/kitex/client/genericclient"
-    "github.com/cloudwego/kitex/pkg/generic"
+    "github.com/minogump/kitex/client/genericclient"
+    "github.com/minogump/kitex/pkg/generic"
 )
 
 func main() {
@@ -402,8 +402,8 @@ Type: map[string]interface{}
 package main
 
 import (
-    "github.com/cloudwego/kitex/pkg/generic"
-    "github.com/cloudwego/kitex/client/genericclient"
+    "github.com/minogump/kitex/pkg/generic"
+    "github.com/minogump/kitex/client/genericclient"
 )
 
 func main() {
@@ -443,8 +443,8 @@ Type: map[string]interface{}
 package main
 
 import (
-    "github.com/cloudwego/kitex/pkg/generic"
-    "github.com/cloudwego/kitex/server/genericserver"
+    "github.com/minogump/kitex/pkg/generic"
+    "github.com/minogump/kitex/server/genericserver"
 )
 
 func main() {
@@ -627,8 +627,8 @@ Type：JSON string
 package main
 
 import (
-    "github.com/cloudwego/kitex/pkg/generic"
-    "github.com/cloudwego/kitex/client/genericclient"
+    "github.com/minogump/kitex/pkg/generic"
+    "github.com/minogump/kitex/client/genericclient"
 )
 
 func main() {
@@ -666,8 +666,8 @@ Type：JSON string
 package main
 
 import (
-    "github.com/cloudwego/kitex/pkg/generic"
-    "github.com/cloudwego/kitex/server/genericserver"
+    "github.com/minogump/kitex/pkg/generic"
+    "github.com/minogump/kitex/server/genericserver"
 )
 
 func main() {

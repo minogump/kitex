@@ -11,8 +11,8 @@ Default Stats Level:
 
 Client tracing stats level control:
 ```go
-import "github.com/cloudwego/kitex/client"
-import "github.com/cloudwego/kitex/pkg/stats"
+import "github.com/minogump/kitex/client"
+import "github.com/minogump/kitex/pkg/stats"
 ...
 baseStats := client.WithStatsLevel(stats.LevelBase)
 client, err := echo.NewClient("echo", baseStats)
@@ -23,8 +23,8 @@ if err != nil {
 
 Server tracing stats level control:
 ```go
-import "github.com/cloudwego/kitex/server"
-import "github.com/cloudwego/kitex/pkg/stats"
+import "github.com/minogump/kitex/server"
+import "github.com/minogump/kitex/pkg/stats"
 ...
 baseStats := server.WithStatsLevel(stats.LevelBase)
 svr, err := echo.NewServer(baseStats)

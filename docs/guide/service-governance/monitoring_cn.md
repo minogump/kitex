@@ -17,7 +17,7 @@ Client
 ```go
 import (
     "github.com/kitex-contrib/monitor-prometheus"
-    kClient "github.com/cloudwego/kitex/client"
+    kClient "github.com/minogump/kitex/client"
 )
 
 ...
@@ -34,7 +34,7 @@ Server
 ```go
 import (
     "github.com/kitex-contrib/monitor-prometheus"
-    kServer "github.com/cloudwego/kitex/server"
+    kServer "github.com/minogump/kitex/server"
 )
 
 func main() {

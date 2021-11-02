@@ -22,18 +22,18 @@ package client
 import (
 	"fmt"
 
-	"github.com/cloudwego/kitex/internal/client"
-	"github.com/cloudwego/kitex/pkg/acl"
-	"github.com/cloudwego/kitex/pkg/diagnosis"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/proxy"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
-	"github.com/cloudwego/kitex/pkg/retry"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/minogump/kitex/internal/client"
+	"github.com/minogump/kitex/pkg/acl"
+	"github.com/minogump/kitex/pkg/diagnosis"
+	"github.com/minogump/kitex/pkg/generic"
+	"github.com/minogump/kitex/pkg/klog"
+	"github.com/minogump/kitex/pkg/proxy"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote/trans/netpoll"
+	"github.com/minogump/kitex/pkg/retry"
+	"github.com/minogump/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/utils"
+	"github.com/minogump/kitex/transport"
 )
 
 // WithHTTPConnection specifies client use RPC over http.

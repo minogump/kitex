@@ -21,10 +21,10 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote/trans/invoke"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/minogump/kitex/internal/mocks"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/remote/trans/invoke"
+	"github.com/minogump/kitex/pkg/utils"
 )
 
 func TestInvokerCall(t *testing.T) {

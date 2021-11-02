@@ -26,10 +26,10 @@ import (
 
 	"golang.org/x/sync/singleflight"
 
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/loadbalance"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/discovery"
+	"github.com/minogump/kitex/pkg/klog"
+	"github.com/minogump/kitex/pkg/loadbalance"
+	"github.com/minogump/kitex/pkg/rpcinfo"
 )
 
 const (

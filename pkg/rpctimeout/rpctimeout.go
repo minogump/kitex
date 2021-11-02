@@ -23,7 +23,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
+	"github.com/minogump/kitex/pkg/endpoint"
 )
 
 type timeoutAdjustKeyType int

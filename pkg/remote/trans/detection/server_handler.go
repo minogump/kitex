@@ -24,12 +24,12 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	transNetpoll "github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc"
+	"github.com/minogump/kitex/pkg/endpoint"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote/codec"
+	transNetpoll "github.com/minogump/kitex/pkg/remote/trans/netpoll"
+	"github.com/minogump/kitex/pkg/remote/trans/nphttp2"
+	"github.com/minogump/kitex/pkg/remote/trans/nphttp2/grpc"
 )
 
 type detectionKey struct{}

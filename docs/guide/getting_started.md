@@ -15,7 +15,7 @@ This chapter gonna get you started with Kitex with a simple executable example.
 First of all, let's install compilers we gonna work with. 
 
 1. Ensure `GOPATH` environment variable is defined properly (for example `export GOPATH=~/go`), then add `$GOPATH/bin` to `PATH` environment variable (for example `export PATH=$GOPATH/bin:$PATH`). Make sure `GOPATH` is accessible.
-2. Install kitex: `go install github.com/cloudwego/kitex/tool/cmd/kitex@latest`
+2. Install kitex: `go install github.com/minogump/kitex/tool/cmd/kitex@latest`
 3. Install thriftgo: `go install github.com/cloudwego/thriftgo@latest`
 
 Now you can run `kitex --version` and `thriftgo --version`, and you can see some outputs just like below if you setup compilers successfully.
@@ -31,8 +31,8 @@ Tips: If you encounter any problem during installation, it's probably you don't 
 
 ### Get the example
 
-1. You can just click [HERE](https://github.com/cloudwego/kitex-examples/archive/refs/heads/main.zip) to download the example
-2. Or you can clone the example repository `git clone https://github.com/cloudwego/kitex-examples.git`
+1. You can just click [HERE](https://github.com/minogump/kitex-examples/archive/refs/heads/main.zip) to download the example
+2. Or you can clone the example repository `git clone https://github.com/minogump/kitex-examples.git`
 
 ### Run the example
 
@@ -245,7 +245,7 @@ enter directory
 
 You can use following command to install and upgrade `kitex`:
 
-`$ go install github.com/cloudwego/kitex/tool/cmd/kitex`
+`$ go install github.com/minogump/kitex/tool/cmd/kitex`
 
 After that, you can just run it to check whether it's installed successfully.
 完成后，可以通过执行kitex来检测是否安装成功。   
@@ -322,7 +322,7 @@ Generated project layout:
 
 Kitex expect project to use go module as dependency manager. It cloud be easy to upgrade Kitex:
 ```
-$ go get github.com/cloudwego/kitex@latest
+$ go get github.com/minogump/kitex@latest
 $ go mod tidy
 ```
 
@@ -408,7 +408,7 @@ Let's new a `client` to do RPC：
 
 ```go
 import "example/kitex_gen/api/echo"
-import "github.com/cloudwego/kitex/client"
+import "github.com/minogump/kitex/client"
 ...
 c, err := echo.NewClient("example", client.WithHostPorts("0.0.0.0:8888"))
 if err != nil {

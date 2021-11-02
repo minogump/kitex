@@ -27,11 +27,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/circuitbreak"
-	"github.com/cloudwego/kitex/pkg/gofunc"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/circuitbreak"
+	"github.com/minogump/kitex/pkg/gofunc"
+	"github.com/minogump/kitex/pkg/kerrors"
+	"github.com/minogump/kitex/pkg/klog"
+	"github.com/minogump/kitex/pkg/rpcinfo"
 )
 
 func newBackupRetryer(policy Policy, cbC *cbContainer, logger klog.FormatLogger) (Retryer, error) {

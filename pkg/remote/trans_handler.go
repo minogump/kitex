@@ -20,7 +20,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
+	"github.com/minogump/kitex/pkg/endpoint"
 )
 
 // ClientTransHandlerFactory to new TransHandler for client

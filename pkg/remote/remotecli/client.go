@@ -21,9 +21,9 @@ import (
 	"errors"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/kerrors"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/rpcinfo"
 )
 
 // Client implementation may be different between mux and non-mux clients.

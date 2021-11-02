@@ -26,7 +26,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/cloudwego/kitex/tool/internal/pkg/log"
+	"github.com/minogump/kitex/tool/internal/pkg/log"
 )
 
 // StringSlice implements the flag.Value interface on string slices

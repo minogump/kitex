@@ -25,10 +25,10 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	"github.com/cloudwego/kitex/pkg/gofunc"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
-	np "github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
+	"github.com/minogump/kitex/pkg/gofunc"
+	"github.com/minogump/kitex/pkg/klog"
+	"github.com/minogump/kitex/pkg/remote"
+	np "github.com/minogump/kitex/pkg/remote/trans/netpoll"
 )
 
 var ErrConnClosed = errors.New("conn closed")

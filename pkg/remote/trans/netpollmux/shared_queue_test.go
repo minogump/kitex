@@ -21,8 +21,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/remote"
 )
 
 func TestShareQueue(t *testing.T) {

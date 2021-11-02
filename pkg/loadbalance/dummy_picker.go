@@ -19,7 +19,7 @@ package loadbalance
 import (
 	"context"
 
-	"github.com/cloudwego/kitex/pkg/discovery"
+	"github.com/minogump/kitex/pkg/discovery"
 )
 
 var _ Picker = &DummyPicker{}

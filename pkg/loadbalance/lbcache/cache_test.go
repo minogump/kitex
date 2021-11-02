@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/loadbalance"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/discovery"
+	"github.com/minogump/kitex/pkg/loadbalance"
+	"github.com/minogump/kitex/pkg/rpcinfo"
 )
 
 var defaultOptions = Options{

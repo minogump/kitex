@@ -20,8 +20,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/stats"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/minogump/kitex/pkg/stats"
+	"github.com/minogump/kitex/transport"
 )
 
 // MutableEndpointInfo is used to change the information in the EndpointInfo.

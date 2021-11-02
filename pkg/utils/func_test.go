@@ -20,13 +20,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/minogump/kitex/internal/test"
 )
 
 func dump() { /* just an empty function */ }
 
 func TestGetFuncName(t *testing.T) {
-	mod := "github.com/cloudwego/kitex/pkg/utils"
+	mod := "github.com/minogump/kitex/pkg/utils"
 	nested := func() { /* just an empty function */ }
 	test.Assert(t, GetFuncName(TestGetFuncName) == mod+".TestGetFuncName")
 	test.Assert(t, GetFuncName(nested) == mod+".TestGetFuncName.func1")

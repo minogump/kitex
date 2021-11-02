@@ -25,17 +25,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	internal_server "github.com/cloudwego/kitex/internal/server"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/limit"
-	"github.com/cloudwego/kitex/pkg/registry"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/trans"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/minogump/kitex/internal/mocks"
+	internal_server "github.com/minogump/kitex/internal/server"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/endpoint"
+	"github.com/minogump/kitex/pkg/limit"
+	"github.com/minogump/kitex/pkg/registry"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote/trans"
+	"github.com/minogump/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/serviceinfo"
+	"github.com/minogump/kitex/pkg/utils"
 )
 
 func TestServerRun(t *testing.T) {

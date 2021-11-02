@@ -54,7 +54,7 @@ package main
 import (
     "os"
 
-    "github.com/cloudwego/kitex/pkg/klog"
+    "github.com/minogump/kitex/pkg/klog"
 )
 
 func main() {

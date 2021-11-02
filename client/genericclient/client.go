@@ -20,10 +20,10 @@ package genericclient
 import (
 	"context"
 
-	"github.com/cloudwego/kitex/client"
-	"github.com/cloudwego/kitex/client/callopt"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/minogump/kitex/client"
+	"github.com/minogump/kitex/client/callopt"
+	"github.com/minogump/kitex/pkg/generic"
+	"github.com/minogump/kitex/pkg/serviceinfo"
 )
 
 // NewClient create a generic client

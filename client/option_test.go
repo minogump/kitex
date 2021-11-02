@@ -21,16 +21,16 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/client"
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/loadbalance"
-	"github.com/cloudwego/kitex/pkg/proxy"
-	"github.com/cloudwego/kitex/pkg/retry"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/rpcinfo/remoteinfo"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/minogump/kitex/internal/client"
+	"github.com/minogump/kitex/internal/mocks"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/discovery"
+	"github.com/minogump/kitex/pkg/loadbalance"
+	"github.com/minogump/kitex/pkg/proxy"
+	"github.com/minogump/kitex/pkg/retry"
+	"github.com/minogump/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/rpcinfo/remoteinfo"
+	"github.com/minogump/kitex/transport"
 )
 
 func TestRetryOptionDebugInfo(t *testing.T) {

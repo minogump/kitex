@@ -22,15 +22,15 @@ import (
 	"net"
 	"sync/atomic"
 
-	stats2 "github.com/cloudwego/kitex/internal/stats"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/remote/trans"
-	np "github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
-	"github.com/cloudwego/kitex/pkg/stats"
 	"github.com/cloudwego/netpoll"
+	stats2 "github.com/minogump/kitex/internal/stats"
+	"github.com/minogump/kitex/pkg/kerrors"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote/codec"
+	"github.com/minogump/kitex/pkg/remote/trans"
+	np "github.com/minogump/kitex/pkg/remote/trans/netpoll"
+	"github.com/minogump/kitex/pkg/serviceinfo"
+	"github.com/minogump/kitex/pkg/stats"
 )
 
 type cliTransHandlerFactory struct{}

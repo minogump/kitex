@@ -20,12 +20,12 @@ import (
 	"context"
 	"sync/atomic"
 
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
-	"github.com/cloudwego/kitex/pkg/generic/thrift"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/remote/codec/perrors"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/minogump/kitex/pkg/generic/descriptor"
+	"github.com/minogump/kitex/pkg/generic/thrift"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote/codec"
+	"github.com/minogump/kitex/pkg/remote/codec/perrors"
+	"github.com/minogump/kitex/pkg/serviceinfo"
 )
 
 // JSONRequest alias of string

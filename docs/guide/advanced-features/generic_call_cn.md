@@ -21,8 +21,8 @@
 
   ```go
   import (
-     "github.com/cloudwego/kitex/client/genericclient"
-     "github.com/cloudwego/kitex/pkg/generic"
+     "github.com/minogump/kitex/client/genericclient"
+     "github.com/minogump/kitex/pkg/generic"
   )
   func NewGenericClient(destServiceName string) genericclient.Client {
       genericCli := genericclient.NewClient(destServiceName, generic.BinaryThriftGeneric())
@@ -32,9 +32,9 @@
 
 - 泛化调用
 
-  若自行编码，需要使用 Thrift 编码格式 [thrift/thrift-binary-protocol.md](https://github.com/apache/thrift/blob/master/doc/specs/thrift-binary-protocol.md#message)。注意，二进制编码不是对原始的 Thrift 请求参数编码，是 method 参数封装的 **XXXArgs**。可以参考 github.com/cloudwego/kitex/generic/generic_test.go。
+  若自行编码，需要使用 Thrift 编码格式 [thrift/thrift-binary-protocol.md](https://github.com/apache/thrift/blob/master/doc/specs/thrift-binary-protocol.md#message)。注意，二进制编码不是对原始的 Thrift 请求参数编码，是 method 参数封装的 **XXXArgs**。可以参考 github.com/minogump/kitex/generic/generic_test.go。
 
-  Kitex 提供了 thrift 编解码包`github.com/cloudwego/kitex/pkg/utils.NewThriftMessageCodec`。
+  Kitex 提供了 thrift 编解码包`github.com/minogump/kitex/pkg/utils.NewThriftMessageCodec`。
   
   ```go
   rc := utils.NewThriftMessageCodec()
@@ -53,8 +53,8 @@
 package main
 
 import (
-    "github.com/cloudwego/kitex/pkg/generic"
-    "github.com/cloudwego/kitex/server/genericserver"
+    "github.com/minogump/kitex/pkg/generic"
+    "github.com/minogump/kitex/server/genericserver"
 )
 
 func main() {
@@ -146,8 +146,8 @@ service BizService {
 package main
 
 import (
-    "github.com/cloudwego/kitex/client/genericclient"
-    "github.com/cloudwego/kitex/pkg/generic"
+    "github.com/minogump/kitex/client/genericclient"
+    "github.com/minogump/kitex/pkg/generic"
 )
 
 func main() {
@@ -404,8 +404,8 @@ service ExampleService {
 package main
 
 import (
-    "github.com/cloudwego/kitex/pkg/generic"
-    "github.com/cloudwego/kitex/client/genericclient"
+    "github.com/minogump/kitex/pkg/generic"
+    "github.com/minogump/kitex/client/genericclient"
 )
 
 func main() {
@@ -447,8 +447,8 @@ func main() {
 package main
 
 import (
-    "github.com/cloudwego/kitex/pkg/generic"
-    "github.com/cloudwego/kitex/server/genericserver"
+    "github.com/minogump/kitex/pkg/generic"
+    "github.com/minogump/kitex/server/genericserver"
 )
 
 func main() {
@@ -630,8 +630,8 @@ service ExampleService {
 package main
 
 import (
-    "github.com/cloudwego/kitex/pkg/generic"
-    "github.com/cloudwego/kitex/client/genericclient"
+    "github.com/minogump/kitex/pkg/generic"
+    "github.com/minogump/kitex/client/genericclient"
 )
 
 func main() {
@@ -671,8 +671,8 @@ func main() {
 package main
 
 import (
-    "github.com/cloudwego/kitex/pkg/generic"
-    "github.com/cloudwego/kitex/server/genericserver"
+    "github.com/minogump/kitex/pkg/generic"
+    "github.com/minogump/kitex/server/genericserver"
 )
 
 func main() {

@@ -101,6 +101,11 @@ func SetBinaryWithBase64(g Generic, enable bool) error {
 			return fmt.Errorf("empty codec for %#v", c)
 		}
 		c.codec.binaryWithBase64 = enable
+	case *mapThriftGeneric:
+		if c.codec == nil {
+			return fmt.Errorf("empty codec for %#v", c)
+		}
+		c.codec.binaryWithBase64 = enable
 	default:
 		return fmt.Errorf("Base64Binary is unavailable for %#v", g)
 	}

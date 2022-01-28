@@ -19,6 +19,7 @@ package test
 
 import (
 	"context"
+	"encoding/base64"
 	"errors"
 	"fmt"
 	"net"
@@ -154,6 +155,29 @@ var (
 	}
 	mockResp = "this is response"
 )
+
+// GenericServiceReadRequiredFiledImpl ...
+type GenericServiceBinaryEchoImpl struct{}
+
+const mockMyMsg = "my msg"
+
+type BinaryEcho struct {
+	Msg       string `json:"msg"`
+	GotBase64 bool   `json:"got_base64"`
+}
+
+// GenericCall ...
+func (g *GenericServiceBinaryEchoImpl) GenericCall(ctx context.Context, method string, request interface{}) (response interface{}, err error) {
+	msg := request.(map[string]interface{})
+	fmt.Printf("Recv: %s\n", msg)
+	if !msg["got_base64"].(bool) && msg["msg"].(string) != mockMyMsg {
+		return nil, errors.New("call failed, msg type mismatch")
+	}
+	if msg["got_base64"].(bool) && msg["msg"].(string) != base64.StdEncoding.EncodeToString([]byte(mockMyMsg)) {
+		return nil, errors.New("call failed, incorrect base64 data")
+	}
+	return request, nil
+}
 
 // normal server
 func newMockServer(handler kt.Mock, addr net.Addr, opts ...server.Option) server.Server {

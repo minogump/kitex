@@ -34,9 +34,9 @@ import (
 	spb "google.golang.org/genproto/googleapis/rpc/status"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/codes"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/minogump/kitex/pkg/klog"
+	"github.com/minogump/kitex/pkg/remote/trans/nphttp2/codes"
+	"github.com/minogump/kitex/pkg/remote/trans/nphttp2/status"
 
 	"github.com/cloudwego/netpoll"
 

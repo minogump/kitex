@@ -22,8 +22,8 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/minogump/kitex/internal/mocks"
+	"github.com/minogump/kitex/pkg/remote"
 )
 
 var _ netpoll.Connection = &MockNetpollConn{}

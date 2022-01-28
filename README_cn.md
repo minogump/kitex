@@ -2,12 +2,12 @@
 
 [English](README.md) | 中文
 
-[![Release](https://img.shields.io/github/v/release/cloudwego/kitex)](https://github.com/cloudwego/kitex/releases)
+[![Release](https://img.shields.io/github/v/release/cloudwego/kitex)](https://github.com/minogump/kitex/releases)
 [![WebSite](https://img.shields.io/website?up_message=cloudwego&url=https%3A%2F%2Fwww.cloudwego.io%2F)](https://www.cloudwego.io/)
-[![License](https://img.shields.io/github/license/cloudwego/kitex)](https://github.com/cloudwego/kitex/blob/main/LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cloudwego/kitex)](https://goreportcard.com/report/github.com/cloudwego/kitex)
-[![OpenIssue](https://img.shields.io/github/issues/cloudwego/kitex)](https://github.com/cloudwego/kitex/issues)
-[![ClosedIssue](https://img.shields.io/github/issues-closed/cloudwego/kitex)](https://github.com/cloudwego/kitex/issues?q=is%3Aissue+is%3Aclosed)
+[![License](https://img.shields.io/github/license/cloudwego/kitex)](https://github.com/minogump/kitex/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/minogump/kitex)](https://goreportcard.com/report/github.com/minogump/kitex)
+[![OpenIssue](https://img.shields.io/github/issues/cloudwego/kitex)](https://github.com/minogump/kitex/issues)
+[![ClosedIssue](https://img.shields.io/github/issues-closed/cloudwego/kitex)](https://github.com/minogump/kitex/issues?q=is%3Aissue+is%3Aclosed)
 ![Stars](https://img.shields.io/github/stars/cloudwego/kitex)
 ![Forks](https://img.shields.io/github/forks/cloudwego/kitex)
 
@@ -79,13 +79,13 @@ Kitex[kaɪt'eks] 字节跳动内部的 Golang 微服务 RPC 框架，具有**高
 
 性能测试只能提供相对参考，工业场景下，有诸多因素可以影响实际的性能表现。
 
-我们提供了 [kitex-benchmark](https://github.com/cloudwego/kitex-benchmark) 项目用来长期追踪和比较 Kitex 与其他框架在不同情况下的性能数据以供参考。
+我们提供了 [kitex-benchmark](https://github.com/minogump/kitex-benchmark) 项目用来长期追踪和比较 Kitex 与其他框架在不同情况下的性能数据以供参考。
 
 ## 相关项目
 
 - [Netpoll](https://github.com/cloudwego/netpoll): 自研的高性能网络库，Kitex 默认集成的。
 - [kitex-contrib](https://github.com/kitex-contrib)：Kitex 的部分扩展库，使用者可以根据需求通过 Option 集成进 Kitex 中。
-- [Example](https://github.com/cloudwego/kitex-examples)：Kitex 的使用示例。
+- [Example](https://github.com/minogump/kitex-examples)：Kitex 的使用示例。
 
 ## 相关文章
 
@@ -103,7 +103,7 @@ Kitex 基于[Apache License 2.0](LICENSE) 许可证，其依赖的三方组件�
 ## 联系我们
 - Email: conduct@cloudwego.io
 - 如何成为 member: [COMMUNITY MEMBERSHIP](https://github.com/cloudwego/community/blob/main/COMMUNITY_MEMBERSHIP.md)
-- Issues: [Issues](https://github.com/cloudwego/kitex/issues)
+- Issues: [Issues](https://github.com/minogump/kitex/issues)
 - 飞书用户群（[注册飞书](https://www.feishu.cn/)进群）
 
   ![LarkGroup](docs/images/lark_group_cn.png)

@@ -21,7 +21,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote"
 )
 
 // ReadUint32 ...

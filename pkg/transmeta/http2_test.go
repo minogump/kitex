@@ -20,9 +20,9 @@ package transmeta
 import (
 	"testing"
 
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/rpcinfo"
 
-	"github.com/cloudwego/kitex/transport"
+	"github.com/minogump/kitex/transport"
 )
 
 func TestIsGRPC(t *testing.T) {

@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/connpool"
-	dialer "github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/minogump/kitex/internal/mocks"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/connpool"
+	dialer "github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/utils"
 )
 
 var (

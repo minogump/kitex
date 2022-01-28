@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/minogump/kitex/internal/test"
 )
 
 func TestFromHTTPRequest(t *testing.T) {

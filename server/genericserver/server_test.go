@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/server"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/generic"
+	"github.com/minogump/kitex/server"
 )
 
 func TestNewServer(t *testing.T) {

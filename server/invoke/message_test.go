@@ -19,8 +19,8 @@ package invoke
 import (
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/utils"
 )
 
 func TestNewMessage(t *testing.T) {

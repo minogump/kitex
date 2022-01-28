@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote"
 )
 
 func TestReadLine(t *testing.T) {

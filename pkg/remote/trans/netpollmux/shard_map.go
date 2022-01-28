@@ -19,7 +19,7 @@ package netpollmux
 import (
 	"sync"
 
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote"
 )
 
 // EventHandler is used to handle events

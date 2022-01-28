@@ -23,12 +23,12 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	internal_stats "github.com/cloudwego/kitex/internal/stats"
-	"github.com/cloudwego/kitex/pkg/protocol/bthrift"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/remote/codec/perrors"
-	"github.com/cloudwego/kitex/pkg/stats"
+	internal_stats "github.com/minogump/kitex/internal/stats"
+	"github.com/minogump/kitex/pkg/protocol/bthrift"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote/codec"
+	"github.com/minogump/kitex/pkg/remote/codec/perrors"
+	"github.com/minogump/kitex/pkg/stats"
 )
 
 // NewThriftCodec creates the thrift binary codec.

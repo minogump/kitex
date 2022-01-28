@@ -22,7 +22,7 @@ import (
 	"sync"
 
 	"github.com/bytedance/gopkg/util/gopool"
-	"github.com/cloudwego/kitex/pkg/klog"
+	"github.com/minogump/kitex/pkg/klog"
 )
 
 // GoTask is used to spawn a new task.

@@ -27,8 +27,8 @@ import (
 	"github.com/cloudwego/netpoll"
 	"github.com/cloudwego/netpoll/mux"
 
-	"github.com/cloudwego/kitex/pkg/klog"
-	np "github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
+	"github.com/minogump/kitex/pkg/klog"
+	np "github.com/minogump/kitex/pkg/remote/trans/netpoll"
 )
 
 // ErrConnClosed .

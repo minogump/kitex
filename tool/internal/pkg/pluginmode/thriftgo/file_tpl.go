@@ -32,7 +32,7 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	"github.com/cloudwego/kitex/pkg/protocol/bthrift"
+	"github.com/minogump/kitex/pkg/protocol/bthrift"
 	{{- range $path, $alias := .Imports}}
 	{{$alias }}"{{$path}}"
 	{{- end}}

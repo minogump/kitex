@@ -23,9 +23,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/metadata"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/remote/trans/nphttp2/grpc"
+	"github.com/minogump/kitex/pkg/remote/trans/nphttp2/metadata"
+	"github.com/minogump/kitex/pkg/rpcinfo"
 )
 
 type clientConn struct {

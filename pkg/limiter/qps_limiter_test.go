@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/minogump/kitex/internal/test"
 )
 
 func TestQpsLimiter(t *testing.T) {

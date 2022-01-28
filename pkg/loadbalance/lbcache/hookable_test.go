@@ -19,8 +19,8 @@ package lbcache
 import (
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/discovery"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/discovery"
 )
 
 func TestHookableRebalance(t *testing.T) {

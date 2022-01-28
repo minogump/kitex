@@ -21,8 +21,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/kerrors"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/kerrors"
 )
 
 func TestErrorTypeOnServiceLevel(t *testing.T) {

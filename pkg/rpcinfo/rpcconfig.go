@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/minogump/kitex/pkg/kerrors"
+	"github.com/minogump/kitex/transport"
 )
 
 var (

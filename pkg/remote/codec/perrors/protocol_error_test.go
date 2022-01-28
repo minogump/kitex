@@ -20,7 +20,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/minogump/kitex/internal/test"
 )
 
 func TestNewProtocolError(t *testing.T) {

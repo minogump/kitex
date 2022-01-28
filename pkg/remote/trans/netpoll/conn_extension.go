@@ -24,9 +24,9 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/trans"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/minogump/kitex/pkg/remote"
+	"github.com/minogump/kitex/pkg/remote/trans"
+	"github.com/minogump/kitex/pkg/rpcinfo"
 )
 
 // NewNetpollConnExtension to build new netpollConnExtension which implements trans.Extension

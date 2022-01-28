@@ -24,11 +24,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/cloudwego/kitex/client"
-	"github.com/cloudwego/kitex/client/genericclient"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/server"
-	"github.com/cloudwego/kitex/server/genericserver"
+	"github.com/minogump/kitex/client"
+	"github.com/minogump/kitex/client/genericclient"
+	"github.com/minogump/kitex/pkg/generic"
+	"github.com/minogump/kitex/server"
+	"github.com/minogump/kitex/server/genericserver"
 )
 
 func newGenericClient(destService string, g generic.Generic, targetIPPort string) genericclient.Client {

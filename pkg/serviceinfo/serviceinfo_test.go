@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/minogump/kitex/internal/test"
+	"github.com/minogump/kitex/pkg/serviceinfo"
 )
 
 func TestServiceInfo(t *testing.T) {

@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cloudwego/kitex/tool/internal/pkg/util"
+	"github.com/minogump/kitex/tool/internal/pkg/util"
 )
 
 func TestConfig_Pack(t *testing.T) {

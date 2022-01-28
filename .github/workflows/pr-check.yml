@@ -23,6 +23,6 @@ jobs:
       - name: Scenario Tests
         run: |
           cd ..
-          git clone https://github.com/cloudwego/kitex-tests.git
+          git clone https://github.com/minogump/kitex-tests.git
           cd kitex-tests
           ./run.sh ${{github.workspace}}

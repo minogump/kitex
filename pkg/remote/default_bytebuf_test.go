@@ -19,7 +19,7 @@ package remote
 import (
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/minogump/kitex/internal/test"
 )
 
 func TestDefaultByteBuffer(t *testing.T) {

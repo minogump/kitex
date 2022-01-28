@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
 	"github.com/cloudwego/thriftgo/parser"
+	"github.com/minogump/kitex/pkg/generic/descriptor"
 )
 
 const (

@@ -21,9 +21,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
-	"github.com/cloudwego/kitex/pkg/generic/thrift"
 	"github.com/cloudwego/thriftgo/parser"
+	"github.com/minogump/kitex/pkg/generic/descriptor"
+	"github.com/minogump/kitex/pkg/generic/thrift"
 )
 
 var (
